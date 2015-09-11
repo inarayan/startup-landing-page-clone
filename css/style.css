@@ -1,0 +1,106 @@
+.top-navigation
+{
+ background-color: #fff;
+ width:100%;
+ position: fixed;
+
+}
+div
+{
+  box-sizing: border-box:
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.top-navigation > .content
+{
+  width: 970px;
+  height: 70px;
+  margin:0 auto;
+  padding:0 15px;
+}
+img{
+
+  margin-top:10px;
+}
+.links
+{
+float:right;
+margin-top:20px;
+}
+.top-navigation .links  li
+{
+display: inline-block;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+margin-left:10px;
+-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links .active
+{
+color: #4c5058;
+font-weight: bold;
+}
+
+.top-navigation .links li:hover{
+color:blue;
+cursor:pointer;
+}
+
+.introduction
+{
+  background-image: url('../images/first-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45.938rem;
+  background-position: center bottom;
+  overflow: auto;
+}
+
+.introduction .intro-content
+{
+  text-align: center;
+  padding-top: 17.5rem;
+  font-size:1.25rem;
+  font-weight: 300;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.introduction .intro-content h1
+{
+  margin-bottom: 1rem;
+}
+.introduction .intro-content h3
+{
+  margin-top: 1rem;
+}
+
+.introduction .intro-content .big-button
+{
+  background-color:#FF9933;
+  font-size:1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height:2.5rem;
+  width:7.5rem;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  border-radius:5px;
+  text-shadow: none;
+  line-height: 1.33;
+  margin: 0 auto;
+
+}
+
+.introduction .intro-content h1
+{
+  font-size: 3.125rem;
+  -webkit-font-smoothing: antialiased;
+
+}
