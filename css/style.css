@@ -104,3 +104,63 @@ cursor:pointer;
   -webkit-font-smoothing: antialiased;
 
 }
+
+.cases h2
+{
+  text-align:center;
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+    margin-right:-4px;
+    text-align: center;
+}
+
+.devices img{
+  width:8rem;
+  height:8rem;
+  text-align:center;
+}
+
+.devices-internet img:nth-child(1)
+{
+  margin-right:-24rem;
+
+}
+.devices-internet h3:nth-child(2)
+{
+  margin-right: -24rem;
+  font-size: 1.35rem;
+/* margin: 1.625rem 0 3.125rem; */
+  font-weight: 300;
+}
+
+.devices-coffee h3:nth-child(2)
+{
+
+  font-size: 1.35rem;
+/* margin: 1.625rem 0 3.125rem; */
+  font-weight: 300;
+}
+.devices-refill img:nth-child(1)
+{
+  margin-left:-24rem;
+
+}
+.devices-refill h3:nth-child(2)
+{
+  margin-left: -24rem;
+  font-size: 1.35rem;
+/* margin: 1.625rem 0 3.125rem; */
+  font-weight: 300;
+}
+
+.cases > h2
+{
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
