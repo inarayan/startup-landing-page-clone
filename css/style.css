@@ -75,10 +75,12 @@ cursor:pointer;
 .introduction .intro-content h1
 {
   margin-bottom: 1rem;
+  font-weight:300;
 }
 .introduction .intro-content h3
 {
   margin-top: 1rem;
+  font-weight:300;
 }
 
 .introduction .intro-content .big-button
