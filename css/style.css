@@ -164,3 +164,51 @@ cursor:pointer;
   margin: 1.625rem 0 3.125rem;
   font-weight: 300;
 }
+
+.content
+{
+  padding-bottom: 10rem;
+  padding-top:8rem;
+  border-color: #eaebec
+}
+
+.icon{
+  padding-top:0rem;
+  padding-bottom: :0rem;
+  padding-right:2rem;
+  margin-top:1px;
+
+
+}
+.content >h5
+{
+  font-weight:normal;
+  margin-bottom:1px;
+
+}
+
+.content hr{
+  width:60%;
+  float:auto;
+}
+
+
+
+.icon li{
+  border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 1.15rem;
+    display: inline-block;
+    margin: 1rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.copy
+{
+  padding-left:1rem;
+  font-size:0.9rem;
+  font-weight:300;
+  font-color:#838994;
+}
